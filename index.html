@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Khaudum North Complex</title>
+    
+    <!-- External CSS Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <!-- Header Structure -->
+    <header class="site-header">
+        <div class="top-bar">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                    <span>Kavango East Region, Namibia</span>
+                </div>
+                <div class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                    <span>info@khaudumnorth.org</span>
+                </div>
+            </div>
+            <div class="phone-number">
+                <span>(+264) 123 456 789</span>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <a href="/" class="logo">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCA0MiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDBMMCAxNUg2VjMySDE4VjIwSDI0VjMySDM2VjE1SDQyTDIxIDBaTTIxIDQuNUwzMyAxMi4zN1YzMEgyN1YxN0gxNVYzMEg5VjEyLjM3TDIxIDQuNVoiIGZpbGw9IiNjMGEwNjIiLz4KPC9zdmc+Cg==" alt="Khaudum North Complex Logo">
+                <span class="logo-text">Khaudum North Complex</span>
+            </a>
+            
+            <!-- Desktop Navigation -->
+            <ul class="desktop-nav">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/about">ABOUT US</a></li>
+                <li><a href="/projects">PROJECTS</a></li>
+                <li><a href="/news">NEWS</a></li>
+                <li><a href="/gallery">GALLERY</a></li>
+                <li><a href="/contact">CONTACT</a></li>
+            </ul>
+
+            <a href="/donate" class="book-button d-none d-lg-block">DONATE</a>
+
+            <!-- Mobile Navigation Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Offcanvas Mobile Menu -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">ABOUT US</a></li>
+                <li class="nav-item"><a class="nav-link" href="/projects">PROJECTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="/news">NEWS</a></li>
+                <li class="nav-item"><a class="nav-link" href="/gallery">GALLERY</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">CONTACT</a></li>
+                 <li class="nav-item mt-3"><a href="/donate" class="book-button">DONATE</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- This main wrapper contains all the sections for the single-page layout -->
+    <div id="page-wrapper">
+
+        <!-- Hero Section -->
+        <!-- *** CORRECTED: Dynamic background-image is now applied here *** -->
+        <section id="home" class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/uploads/new_heroImage-1760616995866-914190816.jpg');">
+            <div class="hero-content">
+                <p class="subtitle">Conservation • Community • Growth</p>
+                <h1 class="serif-font">KHAUDUM NORTH<br>COMPLEX</h1>
+                <a href="/about" class="explore-button">EXPLORE MORE</a>
+            </div>
+        </section>
+
+        <!-- About Us Section (NatureFriend Style) -->
+        <section id="about" class="about-section-nf">
+            <div class="container-nf">
+                <div class="left-column" data-aos="fade-right">
+                    <div class="image-container">
+                        <img src="https://images.pexels.com/photos/8084976/pexels-photo-8084976.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Conservancy community members smiling">
+                    </div>
+                    <div class="image-container">
+                        <img src="https://images.pexels.com/photos/133455/pexels-photo-133455.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Elephant walking in Khaudum">
+                    </div>
+                    <div class="image-container">
+                        <img src="https://images.pexels.com/photos/1122527/pexels-photo-1122527.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Namibian landscape with a road">
+                    </div>
+                </div>
+                <div class="right-column" data-aos="fade-left">
+                    <h3>ABOUT KHAUDUM NORTH COMPLEX</h3>
+                    <h2>Welcome to<br>our Community</h2>
+                    <p>It is difficult to capture what we are about in just a few words. Our secret ingredient is that we are small enough to provide individual attention, yet have the operational muscle and organisational fines to move mountains for conservation and for our people.</p>
+                    <p class="signature">Management Team</p>
+                    <p class="managing-director">George Mukoya & Muduva Nyangana Conservancies</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Services & Partner Testimonials Section -->
+        <section id="services" class="services_section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                       <div class="about_content">
+                            <div class="background_layer"></div>
+                            <div class="layer_content">
+                                <div class="section_title" data-aos="fade-right">
+                                    <h5>OUR SERVICES</h5>
+                                    <h2>What We Offer<strong>Our Community & Partners</strong></h2>
+                                    <div class="heading_line"><span></span></div>
+                                    <p>We provide a range of community-driven services, from sustainable resource management to youth employment programs, all aimed at fostering economic growth while preserving our natural heritage.</p>
+                                </div>
+                                <a href="/projects" data-aos="fade-right" data-aos-delay="100">View All Projects<i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="testimonial_box">
+                            <div class="testimonial_container">
+                                <div class="background_layer"></div>
+                                <div class="layer_content">
+                                    <div class="testimonial_owlCarousel owl-carousel">
+                                        <div class="testimonials"> 
+                                            <div class="testimonial_content">
+                                                <div class="testimonial_caption">
+                                                    <h6>John K. // Ranger</h6>
+                                                    <span>George Mukoya Conservancy</span>
+                                                </div>
+                                                <p>Protecting our wildlife is more than a job; it's a promise to our children. The support we receive makes a tangible difference on the ground every single day.</p>
+                                            </div>
+                                            <div class="images_box">
+                                                <div class="testimonial_img"><img class="img-center" src="https://images.pexels.com/photos/8999941/pexels-photo-8999941.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Testimonial from John K. // Ranger"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-number d-none">01</div>
+        </section>
+
+        <!-- Our Key Initiatives Section -->
+        <section id="projects" class="initiatives-section">
+            <div class="container">
+                <div class="text-center" data-aos="fade-up"><h2 class="section-title">Our Key Initiatives</h2></div>
+                <div class="initiatives-carousel owl-carousel owl-theme mt-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="initiative-card">
+                        <div class="initiative-image-container"><img src="/uploads/initiatives_image_0-1760580787617-814307481.jpg" alt="Conservation & Wildlife Protection" class="initiative-image"></div>
+                        <div class="initiative-info">
+                            <h3 class="initiative-title">Conservation & Wildlife Protection</h3>
+                            <p class="initiative-description">Active monitoring, anti-poaching patrols, and habitat preservation efforts.</p>
+                            <a href="/projects" class="initiative-btn">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="initiative-card">
+                        <div class="initiative-image-container"><img src="/uploads/initiatives_image_1-1760580787620-571987356.jpg" alt="New Initiative" class="initiative-image"></div>
+                        <div class="initiative-info">
+                            <h3 class="initiative-title">New Initiative</h3>
+                            <p class="initiative-description">Enter description here.</p>
+                            <a href="/projects" class="initiative-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-number">02</div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="reviews-section">
+            <div class="container">
+                <div class="text-center" data-aos="fade-up"><h2 class="section-title">What Our Partners Say</h2></div>
+                <div class="reviews-carousel-wrapper" data-aos="fade-up" data-aos-delay="200">
+                    <div class="reviews-carousel owl-carousel owl-theme">
+                        <div class="reviews_item_image">
+                           <img src="/uploads/partners_image_0-1760580728409-404449177.jpg" alt="Partner: Dr. Alan Grant">
+                           <div class="reviews_item_caption"><h4>Dr. Alan Grant</h4><hr><h5>Global Wildlife Fund</h5></div>
+                        </div>
+                        <div class="reviews_item_image">
+                           <img src="/uploads/partners_image_1-1760580728412-967488397.jpg" alt="Partner: New Partner">
+                           <div class="reviews_item_caption"><h4>New Partner</h4><hr><h5>Organization Name</h5></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-number">03</div>
+        </section>
+        
+        <!-- Contact CTA Section -->
+        <section id="contact-cta" class="contact-cta-section">
+            <div class="container" data-aos="fade-up">
+                <h2>Get In Touch</h2>
+                <p class="my-4">Have a question or want to partner with us? We would love to hear from you.</p>
+                <ul class="contact-details-list">
+                    <li><i class="fas fa-phone"></i> (+264) 123 456 789</li>
+                    <li><i class="fas fa-envelope"></i> info@khaudumnorth.org</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Kavango East Region, Namibia</li>
+                </ul>
+                <a href="/contact" class="btn-cta">Contact Us Page</a>
+            </div>
+        </section>
+
+    </div> 
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <!-- Column 1: About -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h4>Khaudum North Complex</h4>
+                    <p>A central digital platform for the George Mukoya Conservancy and the Muduva Nyangana Conservancy, dedicated to conservation, community empowerment, and sustainable growth.</p>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/conservancies">Our Conservancies</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/natural-resources">Natural Resources</a></li>
+                        <li><a href="/hunting">Wildlife & Hunting</a></li>
+                        <li><a href="/youth-forum">Youth Forum</a></li>
+                        <li><a href="/jobs">Jobs & Opportunities</a></li>
+                        <li><a href="/downloads">Downloads</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact & Connect -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <h4>Contact Info</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Kavango East, Namibia</li>
+                        <li><i class="fas fa-phone me-2"></i> (+264) 123 456 789</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@khaudumnorth.org</li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Social Media -->
+                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom text-center">
+                <p>&copy; 2025 Khaudum North Complex. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JS Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- jQuery (Required for Owl Carousel & News Page Toggle) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Custom Page Script -->
+    <script>
+        $(document).ready(function(){
+            // Initialize the Services/Testimonial Carousel
+            $('.testimonial_owlCarousel').owlCarousel({
+                loop: true, margin: 10, dots: false, nav: true, autoplay: true,   
+                smartSpeed: 1500, autoplayTimeout: 5000,
+                responsive:{ 0:{ items:1 }, 600:{ items:1 }, 1000:{ items:1 } }
+            });
+            
+            // Initialize the Initiatives Carousel
+            $('.initiatives-carousel').owlCarousel({
+                loop: true, margin: 20, dots: true, nav: true,
+                navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+                responsive:{ 0:{ items:1 }, 768:{ items:2 }, 992:{ items:3 } }
+            });
+
+            // Initialize the new Reviews Carousel
+            $('.reviews-carousel').owlCarousel({
+                loop:true, margin:10, dots:false, nav:true,
+                navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+                autoplay:true, smartSpeed: 2000, autoplayTimeout:4000,
+                responsive:{ 0:{ items:1 }, 576:{ items:2 }, 992:{ items:4 } }
+            });
+
+            // JS for News Page List/Grid Toggle
+            $('#list').click(function(event){
+                event.preventDefault();
+                $('#products .news-item').addClass('list-group-item');
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+            $('#grid').click(function(event){
+                event.preventDefault();
+                $('#products .news-item').removeClass('list-group-item');
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+        });
+
+        // JS for Gallery Page Modal
+        const galleryModal = document.getElementById("modal");
+        if (galleryModal) {
+            const closeButton = galleryModal.querySelector(".close");
+            const links = document.getElementsByClassName("modal-link");
+            const modalImage = document.getElementById("modal-image");
+
+            function openModal(imageSrc) {
+                galleryModal.style.display = "block";
+                modalImage.src = imageSrc;
+            }
+
+            function closeModal() {
+                galleryModal.style.display = "none";
+            }
+
+            Array.from(links).forEach(function(link) {
+                link.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    openModal(this.href);
+                });
+            });
+
+            closeButton.addEventListener("click", closeModal);
+
+            window.addEventListener("click", function(event) {
+                if (event.target == galleryModal) {
+                    closeModal();
+                }
+            });
+        }
+
+        // JS for Jobs Page Application Modal
+        const applicationModal = document.getElementById('applicationModal');
+        if (applicationModal) {
+            applicationModal.addEventListener('show.bs.modal', function (event) {
+                const button = event.relatedTarget;
+                const jobTitle = button.getAttribute('data-job-title');
+                const jobLocation = button.getAttribute('data-job-location');
+                const jobType = button.getAttribute('data-job-type');
+                const jobDescription = button.getAttribute('data-job-description');
+
+                const modalTitle = applicationModal.querySelector('#modalJobTitle');
+                const modalLocation = applicationModal.querySelector('#modalJobLocation');
+                const modalType = applicationModal.querySelector('#modalJobType');
+                const modalDescription = applicationModal.querySelector('#modalJobDescription');
+                const formJobTitle = applicationModal.querySelector('#formJobTitle');
+
+                modalTitle.textContent = jobTitle;
+                modalLocation.innerHTML = `<i class="fas fa-map-marker-alt me-1"></i> ${jobLocation}`;
+                modalType.innerHTML = `<i class="fas fa-clock me-1"></i> ${jobType}`;
+                modalDescription.innerHTML = jobDescription;
+                formJobTitle.value = jobTitle;
+            });
+        }
+
+
+        // Initialize AOS animations
+        AOS.init({ once: true, duration: 800 });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.main-nav');
+            if(navbar) {
+                 if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            }
+
+            // Scroll indicator logic
+            const scrollIndicator = document.querySelector('.scroll-indicator');
+            if (scrollIndicator) {
+                const sections = ['home', 'about', 'services', 'projects', 'reviews', 'contact-cta'];
+                let current;
+                const topOffset = 150; 
+
+                for (let i = 0; i < sections.length; i++) {
+                    const sectionEl = document.getElementById(sections[i]);
+                    if (sectionEl && sectionEl.offsetTop <= window.pageYOffset + topOffset) {
+                        current = sections[i];
+                    }
+                }
+
+                const dots = document.querySelectorAll('.scroll-indicator .dot');
+                dots.forEach(function(dot) {
+                    dot.classList.remove('active');
+                    if (dot.getAttribute('data-section') === current) {
+                        dot.classList.add('active');
+                    }
+                });
+            }
+        });
+
+        // Scroll indicator click functionality
+        document.querySelectorAll('.scroll-indicator .dot').forEach(function(dot) {
+            dot.addEventListener('click', function() {
+                const sectionId = this.getAttribute('data-section');
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Intelligent Smooth Scrolling for Navigation
+        document.querySelectorAll('.desktop-nav a, .offcanvas-body a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                
+                // Check if it's an anchor link
+                if (href.includes('/#')) {
+                    // If we are already on the home page
+                    if (window.location.pathname === '/') {
+                        e.preventDefault();
+                        const targetId = href.split('#')[1];
+                        const targetElement = document.getElementById(targetId);
+
+                        if (targetElement) {
+                            const offcanvasElement = document.querySelector('.offcanvas.show');
+                            if (offcanvasElement) {
+                                const bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
+                                bsOffcanvas.hide();
+                                // Wait for the menu to close before scrolling
+                                bsOffcanvas._element.addEventListener('hidden.bs.offcanvas', () => {
+                                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                                }, { once: true });
+                            } else {
+                                targetElement.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }
+                    }
+                    // If on another page, the link will work normally and take us to the home page anchor.
+                }
+            });
+        });
+    </script>
+</body>
+</html>
